@@ -1,7 +1,7 @@
 package com.lakshman.hackerrank.ctc;
 
 /**
- * Created by Sasi on 25-10-2017.
+ * Created by Lakshman on 25-10-2017.
  */
 
 import java.util.HashMap;
