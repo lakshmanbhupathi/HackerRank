@@ -6,6 +6,8 @@ import java.util.Map;
 
 /**
  * Created by Lakshman on 17-10-2017.
+ *
+ * multiple programs
  */
 public class MemorySize {
     public static void main(String[] args) {
@@ -32,6 +34,13 @@ public class MemorySize {
 
     }
 
+    /**
+     * Not working
+     * TODO
+     *
+     * @param A
+     * @return
+     */
     private static int sumDist(int[] A) {
         int[] totalSum = new int[A.length];
         for(int i = 0 ; i < A.length ; i++){
@@ -51,6 +60,13 @@ public class MemorySize {
         return max;
     }
 
+    /**
+     * Done working
+     * output as expected
+     *
+     * @param S
+     * @return
+     */
     public static String solution(String S) {
         StringBuilder result = new StringBuilder();
 
