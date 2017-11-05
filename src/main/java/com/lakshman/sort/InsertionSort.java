@@ -17,6 +17,7 @@ public class InsertionSort {
         for(int i =1 ; i< array.length ; i++){
             key = array[i];
 
+            // loop j from i-1 to 0
             for(int j = i-1; j >= 0 ; j--) {
 
                 if(key < array[j]){
