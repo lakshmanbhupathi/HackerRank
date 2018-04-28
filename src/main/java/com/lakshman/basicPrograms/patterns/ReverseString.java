@@ -21,6 +21,8 @@ public class ReverseString {
     /**
      * Recursive approach be careful with very long string may lead to StackOverflow error
      *
+     * @see <a href='http://javarevisited.blogspot.in/2012/01/how-to-reverse-string-in-java-using.html'>how-to-reverse-string-in-java-using</a>
+     *
      * @param string
      * @return
      */
