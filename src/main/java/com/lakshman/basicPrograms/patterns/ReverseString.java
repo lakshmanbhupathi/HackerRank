@@ -14,25 +14,30 @@ public class ReverseString {
      *
      * @return
      */
-    public static String reverseString(String string){
+    public static String reverseString(String string) {
         return new StringBuilder(string).reverse().toString();
     }
 
-    public static String reverseStringRecursive(String string){
-        if(string.length() < 2){
+    /**
+     * Recursive approach be careful with very long string may lead to StackOverflow error
+     *
+     * @param string
+     * @return
+     */
+    public static String reverseStringRecursive(String string) {
+        if (string.length() < 2) {
             return string;
         }
         return reverseStringRecursive(string.substring(1)) + string.charAt(0);
     }
 
     @Test
-    public void testReverseStringRecursive(){
-        Assert.assertEquals("mal",reverseStringRecursive("lam"));
-        Assert.assertNotEquals("mal",reverseStringRecursive("lama"));
+    public void testReverseStringRecursive() {
+        Assert.assertEquals("mal", reverseStringRecursive("lam"));
+        Assert.assertNotEquals("mal", reverseStringRecursive("lama"));
 
-        Assert.assertEquals("mal",reverseString("lam"));
-        Assert.assertNotEquals("mal",reverseString("lama"));
-
+        Assert.assertEquals("mal", reverseString("lam"));
+        Assert.assertNotEquals("mal", reverseString("lama"));
     }
 
 }
