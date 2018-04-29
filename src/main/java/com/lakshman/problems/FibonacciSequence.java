@@ -8,5 +8,23 @@ package com.lakshman.problems;
  */
 public class FibonacciSequence {
 
+    /**
+     * Fibonacci recursive
+     *
+     */
+    public static int fibonacciSequence(int number){
+
+        // base recursive condition
+        if(number == 0 || number == 1) {
+            return number;
+        }
+
+        return fibonacciSequence(number-1) + fibonacciSequence( number -2);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(fibonacciSequence(8080));
+    }
+
 }
 
