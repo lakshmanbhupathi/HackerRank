@@ -1,4 +1,4 @@
-package com.lakshman.problems.patterns;
+package com.lakshman.patterns;
 
 /**
  * Created by Lakshman on 31-10-2017.

@@ -1,4 +1,4 @@
-package com.lakshman.problems.patterns;
+package com.lakshman.patterns;
 
 /**
  * //TODO diamond pattern
