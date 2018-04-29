@@ -1,4 +1,4 @@
-package com.lakshman.basicPrograms;
+package com.lakshman.problems;
 
 /**
  * Created by Lakshman on 31-10-2017.

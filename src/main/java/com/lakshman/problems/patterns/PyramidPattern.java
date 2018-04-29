@@ -1,6 +1,4 @@
-package com.lakshman.basicPrograms.patterns;
-
-import java.util.Scanner;
+package com.lakshman.problems.patterns;
 
 /**
  * Created by Lakshman on 31-10-2017.

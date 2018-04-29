@@ -1,10 +1,9 @@
-package com.lakshman.basicPrograms;
+package com.lakshman.problems;
 
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * basic two strings given verify they are anagram or not

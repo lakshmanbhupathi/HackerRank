@@ -1,4 +1,4 @@
-package com.lakshman.basicPrograms.patterns;
+package com.lakshman.problems.patterns;
 
 import java.util.Scanner;
 

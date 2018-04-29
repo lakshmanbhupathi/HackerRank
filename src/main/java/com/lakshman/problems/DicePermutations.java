@@ -1,4 +1,4 @@
-package com.lakshman.basicPrograms;
+package com.lakshman.problems;
 
 /**
  * Imagine you are playing a board game. You roll a 6-faced dice and move forward the same number of spaces that you rolled.
