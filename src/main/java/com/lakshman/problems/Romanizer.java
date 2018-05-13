@@ -9,10 +9,9 @@ import java.util.TreeMap;
  * @asked transferwise hacker rank test May'18
  */
 public class Romanizer {
+    static TreeMap<Integer, String> map = new TreeMap<>();
 
-    static String[] romanizer(int[] numbers) {
-        TreeMap<Integer, String> map = new TreeMap<Integer, String>();
-
+    static {
         map.put(1000, "M");
         map.put(900, "CM");
         map.put(500, "D");
@@ -26,23 +25,25 @@ public class Romanizer {
         map.put(5, "V");
         map.put(4, "IV");
         map.put(1, "I");
+    }
 
+    static String[] romanizer(int[] numbers) {
         String results[] = new String[numbers.length];
         for (int i = 0; i < numbers.length; i++) {
 
             int number = numbers[i];
-            results[i] = toRoman(number, map);
+            results[i] = toRoman(number);
         }
 
         return results;
     }
 
-    public static String toRoman(int number, TreeMap<Integer, String> map) {
+    public static String toRoman(int number) {
         int l = map.floorKey(number);
         if (number == l) {
             return map.get(number);
         }
-        return map.get(l) + toRoman(number - l, map);
+        return map.get(l) + toRoman(number - l);
     }
 
     public static void main(String[] args) {
