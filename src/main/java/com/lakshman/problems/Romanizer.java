@@ -47,7 +47,12 @@ public class Romanizer {
     }
 
     public static void main(String[] args) {
-        int array[] = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 49, 50, 70, 69, 90, 99, 100, 499, 500, 999, 1000, 1234};
+        int array[] = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+                49, 50,
+                70, 69, 90, 99, 100,
+                499, 500,
+                999, 1000, 1234};
+
         System.out.println(Arrays.asList(romanizer(array)));
     }
 
