@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Validate a given pre-order of binary search tree.
+ *
+ * @asked transferwise May'18
+ */
 public class ValidateBSTWithPreOrder {
 
     public static void main(String[] args) {
@@ -32,8 +37,7 @@ public class ValidateBSTWithPreOrder {
         }
     }
 
-
-    public static boolean checkTree(List<Integer> arr) {
+    static boolean checkTree(List<Integer> arr) {
         if (arr.size() == 1) {
             return true;
         }
