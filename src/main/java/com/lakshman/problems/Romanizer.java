@@ -3,6 +3,11 @@ package com.lakshman.problems;
 import java.util.Arrays;
 import java.util.TreeMap;
 
+/**
+ * Coverts given arabic numbers into Roman numerical
+ *
+ * @asked transferwise hacker rank test May'18
+ */
 public class Romanizer {
 
     static String[] romanizer(int[] numbers) {
@@ -30,8 +35,6 @@ public class Romanizer {
         }
 
         return results;
-
-
     }
 
     public static String toRoman(int number, TreeMap<Integer, String> map) {
