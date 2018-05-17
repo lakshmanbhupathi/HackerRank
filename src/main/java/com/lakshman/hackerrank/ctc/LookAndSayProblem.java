@@ -13,7 +13,7 @@ package com.lakshman.hackerrank.ctc;
  *
  * lookAndSay(digits, n) n times recursion of lookAndSay
  *
- *
+ * @asked Atlassian May'18 Hackerrank
  */
 public class LookAndSayProblem {
 
