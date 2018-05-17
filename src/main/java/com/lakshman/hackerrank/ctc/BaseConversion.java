@@ -7,8 +7,9 @@ package com.lakshman.hackerrank.ctc;
  * as per given below table
  *
  * '0', 'a', 't', 'l', 's', 'i', 'n'
- *  0    1     2    3   4    5    6
+ * 0    1     2    3   4    5    6
  *
+ * @asked Atlassian May'18 Hackerrank
  */
 public class BaseConversion {
 
@@ -17,7 +18,7 @@ public class BaseConversion {
         StringBuilder output = new StringBuilder();
 
         while (input > 0) {
-            output.append(codes[(int)input % 7]);
+            output.append(codes[(int) input % 7]);
             input = input / 7;
         }
 
