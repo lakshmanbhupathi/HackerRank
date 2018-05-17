@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class DataValidation {
 
-    /*
+    /**
      * Complete the validate function below.
      */
     static String validate(String input) {
