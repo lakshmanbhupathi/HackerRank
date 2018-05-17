@@ -1,16 +1,17 @@
 package com.lakshman.hackerrank.ctc;
 
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 /**
- * Look and say
+ * Look and say problem
  *
  * Implement a function that reads off the digits of the input:
  *
  * lookAndSay(1) = 11 because it reads off 'one 1'
- *
  * lookAndSay(11) = 21 because it reads off 'two 1'
- *
  * lookAndSay(21) = 1211 because it reads off 'one 2, one 1'
- *
  * lookAndSay(digits, n) n times recursion of lookAndSay
  *
  * @asked Atlassian May'18 Hackerrank
@@ -47,6 +48,12 @@ public class LookAndSayProblem {
 
     public static void main(String[] args) {
         System.out.println(lookAndSay("11"));
+    }
+
+    @Test
+    public void testLookAndSay(){
+        assertEquals(lookAndSay("11"),"21");
+        assertEquals(lookAndSay("111221"),"312211");
     }
 
 

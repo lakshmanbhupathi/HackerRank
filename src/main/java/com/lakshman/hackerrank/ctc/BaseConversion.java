@@ -1,6 +1,10 @@
 package com.lakshman.hackerrank.ctc;
 
 
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 /**
  * Convert base 10 to base 7
  *
@@ -27,6 +31,12 @@ public class BaseConversion {
 
     public static void main(String[] args) {
         System.out.println(convert(779087123));
+    }
+
+    @Test
+    public void testBase7(){
+        assertEquals(convert(7792875),"atlassian");
+        assertEquals(convert(7),"a0");
     }
 
 }
