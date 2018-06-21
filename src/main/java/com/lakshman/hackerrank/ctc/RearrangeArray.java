@@ -4,9 +4,11 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.EmptyStackException;
-import java.util.Scanner;
 import java.util.Stack;
 
+/**
+ * @asked Ezetap June'18
+ */
 public class RearrangeArray {
     public static void main(String[] args) {
         for (int i : reArrangeArray(new int[]{22, 1, 34, 22, 16}, 22)) {
