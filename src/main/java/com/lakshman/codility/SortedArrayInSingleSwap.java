@@ -5,7 +5,11 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-
+/**
+ * Determine whether a single swap is sufficient to sort an array of integers
+ *
+ * @asked Zelando June'18
+ */
 public class SortedArrayInSingleSwap {
 
     @Test
