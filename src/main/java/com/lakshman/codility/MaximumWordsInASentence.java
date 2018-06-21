@@ -3,6 +3,13 @@ package com.lakshman.codility;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Determine maximum number of words in a sentence ,
+ * where given input string can be divided into sentence by '.' '?' '!'
+ * words can be divided by space ' '
+ *
+ * @asked Zelando June'18
+ */
 public class MaximumWordsInASentence {
 
     @Test
