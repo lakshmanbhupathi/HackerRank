@@ -3,6 +3,11 @@ package com.lakshman.codility;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * Shuffle the given digits alternatively one from front and one from end
+ *
+ * @asked Zelando June'18
+ */
 public class ShuffleDigits {
     @Test
     public void test() {
